@@ -48,8 +48,6 @@
         android:textColor="@color/dark_gray"
         android:textSize="18dp"
         android:textStyle="bold"
-
-
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintHorizontal_weight="1"
@@ -72,7 +70,6 @@
         android:id="@+id/imageView"
         android:layout_width="46dp"
         android:layout_height="60dp"
-
         android:layout_marginTop="16dp"
         android:layout_marginEnd="56dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -158,6 +155,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
+    <!--   Pie Chart-->
     <com.github.mikephil.charting.charts.PieChart
         android:id="@+id/pie_chart"
         android:layout_width="match_parent"
@@ -167,6 +165,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button4" />
 
+    <!--    NavBar-->
     <TextView
         android:layout_width="match_parent"
         android:layout_height="40dp"

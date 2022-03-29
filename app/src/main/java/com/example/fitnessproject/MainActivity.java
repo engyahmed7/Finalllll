@@ -53,10 +53,10 @@ public class MainActivity extends AppCompatActivity {
 
     private void loadPieChartData() {
         ArrayList<PieEntry> entries = new ArrayList<>();
-        entries.add(new PieEntry(0.2f, "suger"));
-        entries.add(new PieEntry(0.15f, "carb"));
-        entries.add(new PieEntry(0.10f, "fats"));
-        entries.add(new PieEntry(0.25f, "protein"));
+        entries.add(new PieEntry(0.2f, "Suger"));
+        entries.add(new PieEntry(0.15f, "Carb"));
+        entries.add(new PieEntry(0.10f, "Fats"));
+        entries.add(new PieEntry(0.25f, "Protein"));
 
 
         ArrayList<Integer> colors = new ArrayList<>();
