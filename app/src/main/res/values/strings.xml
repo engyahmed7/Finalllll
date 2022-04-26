@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Fitness Project</string>
+    <string name="hyperlink"><a href="https://www.youtube.com/watch?v=eXupg3oNGJY">View Tutorial</a></string>
+    <string name="hyperlink2"><a href="https://www.youtube.com/watch?v=0kOOvLPN23Q">View Tutorial</a></string>
+    <string name="hyperlink3"><a href="https://www.youtube.com/watch?v=2mUqSPdYeuA">View Tutorial</a></string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

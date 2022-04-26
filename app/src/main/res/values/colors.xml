@@ -11,5 +11,7 @@
     <color name="Final2">#8767BF</color>
     <color name="gray">#61C3C3C3</color>
     <color name="dark_gray">#6A6969</color>
+    <color name="pp">#FFC8AFF4</color>
+    <color name="wgrey">#DDDBDB</color>
 
 </resources>
