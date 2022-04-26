@@ -10,9 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FitnessProject">
         <activity
-            android:name=".CaloriesActivity"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
