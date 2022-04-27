@@ -65,4 +65,16 @@
         <item>5 Minutes </item>
 
     </string-array>
+    <string-array name="workouts">
+        <item>Yoga</item>
+        <item>Pilates</item>
+        <item>Full body</item>
+        <item>Stretching</item>
+    </string-array>
+    <string-array name="description5">
+        <item>4 Exercises</item>
+        <item>4 Exercises</item>
+        <item>4 Exercises</item>
+        <item>5 Exercises</item>
+    </string-array>
 </resources>

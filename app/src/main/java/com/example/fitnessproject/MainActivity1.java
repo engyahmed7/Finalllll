@@ -38,17 +38,20 @@ public class MainActivity1 extends AppCompatActivity {
     TextView caloriesNum;
     EditText AddCalories;
     TextView Date;
-    ImageButton home_button;
+
 
     private Button button_notify;
     //unique id
     private static final String PRIMARY_CHANNEL_ID = "primary_notification_channel";
     private NotificationManager mNotifyManager;
     private static final int NOTIFICATION_ID = 0;
-
+    ImageButton home;
+    ImageButton run;
+    ImageButton add;
+    ImageButton meals;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        home_button = (ImageButton)  findViewById(R.id.btn);
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -62,7 +65,10 @@ public class MainActivity1 extends AppCompatActivity {
         caloriesNum = findViewById(R.id.textView3);
         AddCalories = findViewById(R.id.editTextNumber);
         Date = findViewById(R.id.button);
-
+        home =(ImageButton)findViewById(R.id.imageView2);
+        run =(ImageButton) findViewById(R.id.imageView4);
+        add =(ImageButton) findViewById(R.id.imageView5);
+        meals =(ImageButton)findViewById(R.id.imageView7);
         // to make date (current date)
         Calendar calender = Calendar.getInstance();
         String CurrentDate = DateFormat.getDateInstance().format(calender.getTime());
@@ -79,7 +85,25 @@ public class MainActivity1 extends AppCompatActivity {
         createNotificationChannel();
 
     }
+    public void home(View view) {
+        Intent intent = new Intent(this,MainActivity3.class);
+        startActivity(intent);
+    }
 
+    public void run(View view) {
+        Intent intent = new Intent(this,MainActivity6.class);
+        startActivity(intent);
+    }
+
+    public void add(View view) {
+        Intent intent = new Intent(this,MainActivity1.class);
+        startActivity(intent);
+    }
+
+    public void meals(View view) {
+        Intent intent = new Intent(this,Exercise1.class);
+        startActivity(intent);
+    }
 
     //Notification
     public void sendNotification(){
