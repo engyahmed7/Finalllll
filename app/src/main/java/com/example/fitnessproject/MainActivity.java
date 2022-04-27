@@ -15,6 +15,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Chronometer;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import com.github.mikephil.charting.animation.Easing;
@@ -37,6 +38,8 @@ public class MainActivity extends AppCompatActivity {
     TextView caloriesNum;
     EditText AddCalories;
     TextView Date;
+    ImageButton home_button;
+
     private Button button_notify;
     //unique id
     private static final String PRIMARY_CHANNEL_ID = "primary_notification_channel";
@@ -45,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        home_button = (ImageButton)  findViewById(R.id.btn);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -75,6 +79,7 @@ public class MainActivity extends AppCompatActivity {
         createNotificationChannel();
 
     }
+
 
     //Notification
     public void sendNotification(){
@@ -219,7 +224,13 @@ public class MainActivity extends AppCompatActivity {
         String s1 = sharedPreferences.getString("Calories" , "0");
         caloriesNum.setText(s1);
     }
+
+    public void onClick3(View v) {
+        Intent i = new Intent(this, MainActivity3.class);
+        startActivity(i);
     }
+
+}
 
 
 
