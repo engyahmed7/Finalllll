@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="btn" type="id" />
+    <item name="button" type="id" />
+    <item name="editTextNumber" type="id" />
+    <item name="buttonR" type="id" />
+    <item name="saveButton" type="id" />
+    <item name="pie_chart" type="id" />
+</resources>

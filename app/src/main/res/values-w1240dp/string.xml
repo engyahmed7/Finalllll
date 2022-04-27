@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">تسجيل دخول</string>
+    <string name="email">بريد الكتروني</string>
+    <string name="password">كلمة السر</string>
+    <string name="Age">السن</string>
+    <string name="sign_up">سجل الان</string>
+    <string name="sign_in">تسجيل الدخول</string>
+
+    <string name="weight">الوزن</string>
+    <string name="no_account">ليس لديك حساب؟</string>
+</resources>

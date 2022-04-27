@@ -1,17 +1,11 @@
-<resources>
-    <string name="app_name">Fitness Project</string>
-    <string name="hyperlink"><a href="https://www.youtube.com/watch?v=eXupg3oNGJY">View Tutorial</a></string>
-    <string name="hyperlink2"><a href="https://www.youtube.com/watch?v=0kOOvLPN23Q">View Tutorial</a></string>
-    <string name="hyperlink3"><a href="https://www.youtube.com/watch?v=2mUqSPdYeuA">View Tutorial</a></string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="title_activity_activitytwo">Activitytwo</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <string name="title_activity_two">ActivityTwo</string>
+    <string name="app_name" tools:ignore="DuplicateDefinition">Task1</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign in</string>
+    <string name="Age">Age</string>
+    <string name="weight">Weight</string>
+    <string name="no_account">Don\'t Have An Account</string>
 </resources>
