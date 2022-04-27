@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
     public void onClick5(View v) {
-        Intent intent1 = new Intent(this, MainActivity1.class);
+        Intent intent1 = new Intent(this, MainActivity3.class);
         startActivity(intent1);
     }
 }
