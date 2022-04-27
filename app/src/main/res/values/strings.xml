@@ -8,4 +8,61 @@
     <string name="Age">Age</string>
     <string name="weight">Weight</string>
     <string name="no_account">Don\'t Have An Account</string>
+
+    <string-array name="Yoga">
+        <item>Fly Pigeon</item>
+        <item>Full Boat</item>
+        <item>Pigeon Pose</item>
+        <item>Sphinx</item>
+    </string-array>
+    <string-array name="description1">
+        <item>10 Minutes</item>
+        <item>12 Minutes </item>
+        <item>5 Minutes </item>
+        <item>8 Minutes </item>
+    </string-array>
+    <string-array name="Full">
+        <item>Lunges</item>
+        <item>Pelvic Lift</item>
+        <item>Push Up</item>
+        <item>Squats</item>
+
+    </string-array>
+    <string-array name="description2">
+        <item>10 Minutes</item>
+        <item>2 Minutes </item>
+        <item>13 Minutes</item>
+        <item>5 Minutes </item>
+
+    </string-array>
+    <string-array name="Stretch">
+        <item>Forward Bend</item>
+        <item>Hip Flexor</item>
+        <item>Shoulder Stretch</item>
+        <item>Toe Touch</item>
+        <item>Triceps</item>
+
+    </string-array>
+    <string-array name="description3">
+        <item>10 Minutes</item>
+        <item>5 Minutes </item>
+        <item>10 Minutes</item>
+        <item>5 Minutes </item>
+        <item>10 Minutes </item>
+
+    </string-array>
+    <string-array name="Pilates">
+        <item>Dead Bug</item>
+        <item>Pelvic Press</item>
+        <item>Side Plank</item>
+        <item>Swan</item>
+
+    </string-array>
+    <string-array name="description4">
+        <item>10 Minutes</item>
+        <item>15 Minutes </item>
+        <item>15 Minutes</item>
+        <item>5 Minutes </item>
+
+    </string-array>
 </resources>

@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FitnessProject">
         <activity
+            android:name=".MainActivityPilates"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityStretch"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityFull"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityYoga"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity1"
             android:exported="false" />
         <activity
