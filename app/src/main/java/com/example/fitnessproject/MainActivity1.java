@@ -53,7 +53,7 @@ public class MainActivity1 extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main1);
 
         piechart = findViewById(R.id.pie_chart);
         //make pie chart
@@ -85,6 +85,7 @@ public class MainActivity1 extends AppCompatActivity {
         createNotificationChannel();
 
     }
+
     public void home(View view) {
         Intent intent = new Intent(this,MainActivity3.class);
         startActivity(intent);
