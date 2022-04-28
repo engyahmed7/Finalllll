@@ -77,4 +77,40 @@
         <item>4 Exercises</item>
         <item>5 Exercises</item>
     </string-array>
+    <string-array name="Meals">
+        <item>Egg Muffins with veggies</item>
+        <item>Vegetarian Stuffed Potato</item>
+        <item>Chicken Salad with Sesame dressing</item>
+        <item>BBQ Chicken Pizza with potato crust</item>
+        <item>Chicken and avocado noodles bowl</item>
+        <item>Air Fryer Egg rolls with vegetables</item>
+        <item>Oatmeal,Fruits and Peanut Butter</item>
+        <item>Chicken Pita</item>
+        <item>Spanish and Tomato Frittata</item>
+        <item>Carrot Cake Energy Bars</item>
+    </string-array>
+    <string-array name="Calories">
+        <item>100 Calories</item>
+        <item>307 Calories </item>
+        <item>422 Calories </item>
+        <item>449 Calories </item>
+        <item>365 Calories</item>
+        <item>162 Calories</item>
+        <item>210 Calories</item>
+        <item>477 Calories</item>
+        <item>108 Calories</item>
+        <item>214 Calories</item>
+    </string-array>
+    <string-array name="Button">
+         <item>Save</item>
+        <item>Save </item>
+        <item>Save </item>
+        <item>Save </item>
+        <item>Save </item>
+        <item>Save </item>
+        <item>Save </item>
+        <item>Save </item>
+        <item>Save </item>
+        <item>Save </item>
+     </string-array>
 </resources>

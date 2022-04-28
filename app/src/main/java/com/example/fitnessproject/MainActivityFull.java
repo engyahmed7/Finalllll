@@ -61,7 +61,7 @@ public class MainActivityFull extends AppCompatActivity implements RecycleViewOn
     }
 
     public void meals(View view) {
-        Intent intent = new Intent(this,Exercise1.class);
+        Intent intent = new Intent(this,MainActivity8.class);
         startActivity(intent);
     }
 }

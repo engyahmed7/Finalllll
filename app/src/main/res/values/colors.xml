@@ -14,5 +14,6 @@
     <color name="pp">#FFC8AFF4</color>
     <color name="wgrey">#DDDBDB</color>
     <color name="greyy">#F8F6F6</color>
-
+    <color name="purple">#8524DC</color>
+    <color name="kk">@color/purple_500</color>
 </resources>

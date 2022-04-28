@@ -40,11 +40,16 @@ public class MainActivity3 extends AppCompatActivity {
     }
 
     public void meals(View view) {
-        Intent intent = new Intent(this,Exercise1.class);
+        Intent intent = new Intent(this,MainActivity8.class);
         startActivity(intent);
     }
     public void onClick2(View v) {
-        Intent intent = new Intent(this, Exercise1.class);
+        Intent intent = new Intent(this, MainActivity6.class);
+        startActivity(intent);
+
+    }
+    public void onClick4(View v) {
+        Intent intent = new Intent(this, MainActivityStretch.class);
         startActivity(intent);
 
     }
