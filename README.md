@@ -1,5 +1,5 @@
 # Fitness Project
-Team Names: Engy Ahmed Abdelaziz / Habiba Gamal / Esraa Mohamed Mohamed Samy / Basmala Mohamed / Esraa Gamal / Salma Essam Abdullah
+
 
 ![Screenshot_20220429-152929](https://user-images.githubusercontent.com/68815210/165954784-d5388130-386a-4205-bf72-52bfd834bd18.jpg)
 ![Screenshot_20220429-152935](https://user-images.githubusercontent.com/68815210/165954858-2400e5a2-10e7-44e9-84bd-468c00697b90.jpg)
